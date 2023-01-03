@@ -12,15 +12,15 @@ import './style.css';
     
     return(
         <div className='navbar'>
-            <div>
-                Logo
+            <div className='logo'>
+                <img width={120} src="https://elofy.com.br/wp-content/uploads/2022/01/logo-elofy-azul-transparente.png" />
             </div>
             <div className='wrapperItens'>
            
                 {navBarItens.map((item) => (
                 <div className="navbar-itens">
 
-            <Link to={item.path}>{item.name}</Link>
+            <Link className='links' to={item.path}>{item.name}</Link>
                 </div>
          
         ))}
