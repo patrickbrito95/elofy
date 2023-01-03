@@ -1,0 +1,14 @@
+.navbar {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapperItens {
+    display: flex;
+}
+
+.navbar-itens {
+    background: green;
+    margin: 10px;
+}
